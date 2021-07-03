@@ -1,0 +1,530 @@
+@font-face {
+  font-family: dinmedium;
+  src: url(fonts/FF_DIN_Medium.otf);
+}
+@font-face {
+  font-family: dinbold;
+  src: url(fonts/FF_DIN_Bold.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.k-container {
+  max-width: 90%;
+  margin: auto;
+}
+.bg-blue {
+  background-color: #2cbdb5;
+}
+.k-navbar {
+  background-color: #f3f1f1;
+}
+.color-green {
+  color: #2cbdb5;
+}
+.heading {
+  font-weight: 300;
+  font-family: dinbold;
+}
+.full-width {
+  max-width: 100%;
+}
+.carousel-item {
+  min-height: 400px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+.w-80 {
+  width: 80%;
+}
+/********* navbar ***********/
+.k-navbar nav ul {
+  list-style: none;
+}
+.k-navbar nav ul li {
+  display: inline-block;
+}
+.kgk-reality-logo {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kgk-reality-logo img {
+  height: 100%;
+  width: 75%;
+  image-rendering: -webkit-optimize-contrast;
+}
+.k-navbar nav ul a,
+.k-navbar nav ul span {
+  text-decoration: none;
+  color: darkgray;
+}
+.location-excellence-enlarge {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #e9e5e5;
+  width: 70% !important;
+  z-index: 999;
+}
+.phone {
+  background-color: #2cbdb5;
+  border-radius: 10px;
+  padding: 2px 5px;
+}
+.phone a {
+  font-weight: 700;
+}
+.nav-niley {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+.nav-niley img {
+  width: auto;
+  height: 75px;
+  image-rendering: -webkit-optimize-contrast;
+}
+.k-navbar .k-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.font-size-small {
+  font-size: small;
+}
+
+/******* banner ******/
+button.active {
+  background-color: #2cbdb5 !important;
+}
+.banner-indicators {
+  width: 20px;
+  border: none;
+  outline: none;
+  height: 2px;
+  border-radius: 10px;
+  background-color: #fff !important;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#banner {
+  margin-top: 130px;
+}
+.carousel-item {
+  min-height: 250px;
+}
+.carousel-item img {
+  min-height: 250px;
+}
+/********* Overview Section **********/
+
+.overview_right {
+  background-image: linear-gradient(
+      to left,
+      rgb(255 255 255 / 77%) 82%,
+      transparent
+    ),
+    url(images/Overview_right.jpg);
+  background-size: cover;
+}
+.overview_left {
+  image-rendering: -webkit-optimize-contrast;
+}
+p.unit-size {
+  font-weight: 600;
+  display: inline-block;
+  font-family: dinbold !important;
+  color: #2cbdb5;
+  font-size: 22px;
+}
+/********* aminities *******/
+.aminities {
+  background-image: url(images/Amenities.jpg);
+  background-size: cover;
+}
+.aminities-text {
+  font-weight: 300;
+  font-size: 20px;
+  font-family: dinmedium;
+}
+
+/***** site plan  *****/
+.site-plan {
+  background-color: #d2d3d5;
+}
+.site-plan img {
+  image-rendering: -webkit-optimize-contrast;
+}
+
+/****** location excellence ******/
+
+.location-excellence {
+  background-color: #e9e5e5;
+}
+
+/******* project-status ******/
+
+.project-status {
+  background-image: url(images/project-status.jpg);
+  background-size: cover;
+}
+.project-status img {
+  border: 2px solid #ffff;
+}
+
+/******* book a site visit  *********/
+
+.visit-form input {
+  outline: none;
+  border: none;
+  border-radius: 25px;
+  width: 28%;
+  margin: 5px 10px;
+  padding: 5px 10px;
+  background-color: #fff;
+}
+.visit-form button {
+  background-color: #2cbdb5;
+  padding: 5px 25px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  color: #ffff;
+}
+.book-a-site {
+  background-color: #40433e;
+}
+
+/******* footer ******/
+
+.footer {
+  background-color: #333333;
+}
+.line {
+  border: 1px solid #fff;
+  background-color: #ffff;
+}
+
+/**************** enquiry-form *********/
+
+#enquiry {
+  cursor: pointer;
+  display: inline-block;
+  position: fixed;
+  padding-top: 10px;
+  margin-right: -82px;
+  padding-left: 10px;
+  padding-right: 10px;
+  right: 0;
+  top: 50%;
+  z-index: 9;
+  transform: rotate(90deg);
+  background-color: #565658;
+  border-bottom-left-radius: 11px;
+  border-bottom-right-radius: 11px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.enquiry-form-section {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  width: 30%;
+  background-color: #2cbdb5;
+  text-align: center;
+  padding: 50px 20px;
+  overflow: hidden;
+  opacity: 0;
+  animation-name: fade;
+  animation-duration: 1.2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.enquiry-form input {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  width: 70%;
+  margin: 10px 0;
+  color: #fff;
+  outline: none;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  padding: 5px 18px;
+  background: none;
+}
+
+.enquiry-form input::placeholder {
+  color: #fff;
+}
+.enquiry-form button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  width: 70%;
+  margin: 10px 0;
+  padding: 5px;
+  color: #2cbdb5 !important;
+  outline: none;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  background: #fff;
+}
+
+/****** for display none ******/
+.hidden {
+  display: none;
+}
+.backdrop {
+  position: fixed;
+  top: 0%;
+  height: 100%;
+  width: 100%;
+  z-index: 99;
+  opacity: 0.7;
+  background-color: #000;
+}
+.dnone {
+  display: none;
+}
+.project-status-images-enlarge {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  height: 70%;
+  opacity: 0;
+  background-color: #d2d3d5;
+  width: 70%;
+  animation-name: psImageFade;
+  animation-duration: 1.2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.layout-images-enlarge {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  height: 90%;
+  opacity: 0;
+  background-color: #d2d3d5;
+  animation-name: psImageFade;
+  animation-duration: 1.2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes psImageFade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.enquire-now {
+  display: none;
+}
+
+/******* media quiry *********/
+
+@media (max-width: 768px) {
+  .k-container {
+    max-width: 100%;
+  }
+  .heading {
+    font-size: 24px;
+    font-weight: 300;
+  }
+  .mnone {
+    display: none !important;
+  }
+  .layout-images-enlarge {
+    height: auto;
+    width: 100%;
+  }
+  .dnone {
+    display: block;
+  }
+  /***** banner ***/
+
+  #banner {
+    margin-top: 145px;
+  }
+  /**** aminities ***/
+  .aminitiesImage {
+    width: 50%;
+  }
+  .aminities-text {
+    font-weight: 300 !important;
+    font-size: 19px !important;
+  }
+  /*** drop down icon ****/
+
+  .phone a {
+    color: #2cbdb5;
+    background-color: #fff;
+    padding: 1px 3px;
+    border-radius: 10px;
+  }
+  @keyframes slide-up-down {
+    from {
+      top: -30%;
+    }
+    to {
+      top: 8%;
+    }
+  }
+
+  /*** enquiry now / visit form ***/
+
+  .enquiry-form input {
+    width: 100%;
+  }
+  .enquiry-form-section {
+    width: 90% !important;
+  }
+  .enquire-now {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 99;
+    text-align: center;
+    background-color: #565658;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0px -5px 5px #212529;
+  }
+  .enquiry-form-mobile {
+    position: fixed;
+    z-index: 9;
+    bottom: 0%;
+    left: 0%;
+    background-color: #2cbdb5;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+  }
+  .visit-form button {
+    width: 80%;
+    margin-top: 10px;
+  }
+  .visit-form input {
+    width: 80%;
+  }
+
+  /*** site-plan  ****/
+  .site-plan {
+    height: 400px;
+  }
+
+  /***** location excellence ***/
+  .location-excellence p {
+    text-align: justify;
+  }
+
+  /****** header *******/
+  .k-navbar .k-container {
+    align-items: center;
+    padding: 0 10px;
+    justify-content: space-around;
+  }
+  .fa-chevron-circle-down {
+    color: #2cbdb5;
+  }
+  .kgk-reality-logo img {
+    height: 80%;
+    width: 60%;
+  }
+
+  /**** project status ****/
+
+  .project-status img {
+    border: none;
+  }
+
+  .project-status.pb-5 {
+    padding-bottom: 0rem !important;
+  }
+  .location-excellence-enlarge {
+    width: 100% !important;
+  }
+  .project-status-images-enlarge {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    height: 50% !important;
+    opacity: 0;
+    width: 110% !important;
+    animation-name: psImageFade;
+    animation-duration: 1.2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  /*** footer **/
+
+  .footer {
+    text-align: center;
+  }
+  p.unit-size {
+    font-size: 11px;
+  }
+}
+@media (max-width: 1100px) {
+  .project-status-images-enlarge {
+    height: 52%;
+    opacity: 0;
+    width: 92%;
+  }
+  .location-excellence-enlarge {
+    width: 100% !important;
+  }
+  .layout-images-enlarge {
+    height: auto;
+    width: 90%;
+  }
+  .enquiry-form-section {
+    width: 70%;
+  }
+}
+@media (max-width: 500px) {
+  .aminities-text {
+    font-size: 10px !important;
+  }
+  .project-status-images-enlarge {
+    height: 40% !important;
+  }
+}
